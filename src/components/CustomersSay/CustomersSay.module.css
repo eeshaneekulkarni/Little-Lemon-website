@@ -1,0 +1,33 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:   #495E57 ;
+    height: 800px;
+}
+.cards {
+  
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h1{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 600px) {
+ 
+    .cards{
+        flex-direction: column;
+    }
+    .container{
+        height: 2000px;
+    }
+}

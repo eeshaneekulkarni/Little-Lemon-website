@@ -1,0 +1,49 @@
+.container{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    color:black;
+    font-size: 16;
+    font-weight: bold;
+    background-color: #F4CE14;
+    margin-left: 200px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 600px) {
+ 
+    .cards{
+        flex-direction: column;
+    }
+    .row{
+        display: inline;
+        justify-content: center;
+    }
+    .h1{
+        font-size: 12px;
+        margin-left: 20px;
+    }
+}

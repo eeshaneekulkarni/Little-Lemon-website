@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.h1{
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inputItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.input{
+    height: 40px;
+    width: 300px;
+    background-color: #495E57 ;
+    color:white
+}
+.error{
+    color:red;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    width: 200px;
+    height: 400px;
+    flex-direction: column;
+    background-color: rgb(216, 212, 212);
+    border-radius: 20px;
+    margin-right: 50px;
+    padding: 20px;
+}
+.custImg{
+    border-radius: 50px;
+    margin-right: 20px;
+
+}
+.personRow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.text {
+    text-align: justify;
+}
+.rating{
+    color: black;
+}
